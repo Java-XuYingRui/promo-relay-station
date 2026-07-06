@@ -16,16 +16,6 @@ This project does not bypass platform restrictions, login checks, CAPTCHA,
 rate limits, or content review. It is designed for legitimate, user-owned
 publishing workflows.
 
-## Community
-
-Join the QQ group for AI workflow discussion, toolkit updates, and practical
-automation notes:
-
-- QQ group: `2162050314`
-- Group name: `码咖8咖AI交流群`
-
-![码咖8咖AI交流群 QQ group QR code](docs/media/qq-group-qrcode.jpg)
-
 ## How To Use
 
 This repository is a preparation workspace. It generates platform-ready drafts
@@ -135,3 +125,13 @@ See [docs/COMPLIANCE.md](docs/COMPLIANCE.md) and
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+## Community
+
+Join the QQ group for AI workflow discussion, toolkit updates, and practical
+automation notes:
+
+- QQ group: `2162050314`
+- Group name: `码咖8咖AI交流群`
+
+<img src="docs/media/qq-group-qrcode.jpg" alt="码咖8咖AI交流群 QQ group QR code" width="220">
