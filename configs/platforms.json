@@ -1,0 +1,44 @@
+{
+  "platforms": [
+    {
+      "id": "xiaohongshu",
+      "name": "小红书",
+      "titleMaxLength": 20,
+      "bodyMaxLength": 1000,
+      "tagStyle": "hash",
+      "cta": "想看完整资料，可以看主页/置顶入口。"
+    },
+    {
+      "id": "douyin",
+      "name": "抖音",
+      "titleMaxLength": 55,
+      "bodyMaxLength": 500,
+      "tagStyle": "hash",
+      "cta": "完整内容放在主页入口。"
+    },
+    {
+      "id": "kuaishou",
+      "name": "快手",
+      "titleMaxLength": 60,
+      "bodyMaxLength": 500,
+      "tagStyle": "hash",
+      "cta": "需要完整版的朋友看主页。"
+    },
+    {
+      "id": "bilibili",
+      "name": "B站",
+      "titleMaxLength": 80,
+      "bodyMaxLength": 2000,
+      "tagStyle": "plain",
+      "cta": "相关资料和入口已整理在简介/置顶。"
+    },
+    {
+      "id": "zhihu",
+      "name": "知乎",
+      "titleMaxLength": 100,
+      "bodyMaxLength": 5000,
+      "tagStyle": "plain",
+      "cta": "我把延伸内容整理到了个人主页入口。"
+    }
+  ]
+}

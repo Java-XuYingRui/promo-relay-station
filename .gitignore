@@ -1,0 +1,11 @@
+assets/*
+!assets/.gitkeep
+drafts/*
+!drafts/.gitkeep
+reports/
+tmp/
+node_modules/
+.env
+.env.*
+*.local
+*.log

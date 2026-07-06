@@ -1,0 +1,15 @@
+{
+  "id": "example",
+  "status": "draft",
+  "title": "这里写作品标题",
+  "hook": "开头三秒/第一句话要抓住的问题或收益点",
+  "summary": "这里写作品简介。说明作品解决什么问题、适合谁、看完能得到什么。",
+  "targetUrl": "https://example.com",
+  "tags": ["中转站", "资料整理", "经验分享"],
+  "assets": [
+    "assets/example-cover.png",
+    "assets/example-video.mp4"
+  ],
+  "platforms": ["xiaohongshu", "douyin", "kuaishou", "bilibili", "zhihu"],
+  "notes": "这里写发布注意事项，比如封面风格、评论区置顶内容、发布时间。"
+}

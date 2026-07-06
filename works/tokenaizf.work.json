@@ -1,0 +1,17 @@
+{
+  "id": "tokenaizf",
+  "status": "ready",
+  "title": "AI 工具开发，先跑通 API 调用",
+  "hook": "做 AI 工具、Bot、自动化脚本，经常第一步就卡在 API 接入。",
+  "summary": "码咖8咖是一个 AI API 中转入口，适合个人学习、开发测试和项目集成。支持 API Key 调用，控制台可看余额、用量和调用记录，按 Token 消耗计费。建议先小额测试，确认模型、速度和价格都符合项目需求后再长期使用。",
+  "targetUrl": "https://tokenaizf.cn/",
+  "tags": ["AI工具", "API接口", "程序员", "独立开发", "AI开发", "码咖8咖"],
+  "assets": [
+    "assets/tokenaizf-poster-1.png",
+    "assets/tokenaizf-poster-2.png",
+    "assets/tokenaizf-poster-3.png",
+    "assets/tokenaizf-poster-4.png"
+  ],
+  "platforms": ["xiaohongshu", "douyin", "kuaishou", "bilibili", "zhihu"],
+  "notes": "发布时建议引导用户先小额测试，并明确仅用于合法合规的学习、开发和测试场景。"
+}

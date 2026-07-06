@@ -1,0 +1,18 @@
+{
+  "name": "promo-relay-station",
+  "version": "0.1.0",
+  "description": "Compliance-first toolkit for generating cross-platform promotional drafts and poster assets.",
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "drafts": "powershell -ExecutionPolicy Bypass -File ./scripts/generate-drafts.ps1",
+    "posters:tokenaizf": "node ./scripts/generate-tokenaizf-posters.js"
+  },
+  "keywords": [
+    "marketing",
+    "content",
+    "publishing",
+    "automation",
+    "drafts"
+  ]
+}
