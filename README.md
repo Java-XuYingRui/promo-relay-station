@@ -16,6 +16,16 @@ This project does not bypass platform restrictions, login checks, CAPTCHA,
 rate limits, or content review. It is designed for legitimate, user-owned
 publishing workflows.
 
+## Community
+
+Join the QQ group for AI workflow discussion, toolkit updates, and practical
+automation notes:
+
+- QQ group: `2162050314`
+- Group name: `码咖8咖AI交流群`
+
+![码咖8咖AI交流群 QQ group QR code](docs/media/qq-group-qrcode.jpg)
+
 ## Project Layout
 
 - `works/`: work item definitions.
