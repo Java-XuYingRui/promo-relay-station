@@ -26,6 +26,74 @@ automation notes:
 
 ![码咖8咖AI交流群 QQ group QR code](docs/media/qq-group-qrcode.jpg)
 
+## How To Use
+
+This repository is a preparation workspace. It generates platform-ready drafts
+and poster assets, then you publish them through the official creator pages.
+
+1. Install the required tools.
+
+   - Git: clone and push this repository.
+   - Node.js: run poster generation scripts.
+   - PowerShell: run draft generation scripts on Windows.
+
+2. Create or edit a work item.
+
+   Update a file under `works/`, for example
+   `works/tokenaizf.work.json`. Keep the target URL, title, summary, tags,
+   platform list, and asset paths accurate.
+
+3. Generate platform drafts.
+
+   ```powershell
+   powershell -ExecutionPolicy Bypass -File .\scripts\generate-drafts.ps1
+   ```
+
+   Output path: `drafts/<work-id>/<platform>.md`
+
+4. Generate poster SVG files.
+
+   ```powershell
+   node .\scripts\generate-tokenaizf-posters.js
+   ```
+
+   Output path: `assets/*.svg`
+
+5. Review before publishing.
+
+   Check the title length, body copy, tags, QR code, target URL, and platform
+   declarations. Do not put account passwords, session cookies, or private
+   tokens into Git.
+
+6. Publish through official creator pages.
+
+   Open the target platform page, upload the prepared media, paste the matching
+   draft, preview the post, then confirm publish after the final review.
+
+## Platform Page Flows
+
+The detailed publishing guide is in [docs/PUBLISHING.md](docs/PUBLISHING.md).
+Common entry points:
+
+- 小红书: open `https://creator.xiaohongshu.com/publish/publish`, choose
+  image/text or video note, upload media, paste the title/body from
+  `drafts/<work-id>/xiaohongshu.md`, add tags, preview, then publish.
+- 抖音: open `https://creator.douyin.com/creator-micro/content/upload`,
+  upload video or image content, set cover, title, description, tags, visibility,
+  and declarations, then publish.
+- B站专栏: open
+  `https://member.bilibili.com/platform/upload/text/new-edit`, paste the
+  article draft from `drafts/<work-id>/bilibili.md`, set cover/category/tags,
+  preview, then submit.
+- B站视频: open `https://member.bilibili.com/platform/upload/video/frame`,
+  upload video, fill title, partition, tags, description, cover, copyright
+  declaration, then submit.
+- 快手: open `https://cp.kuaishou.com/`, enter content publishing/upload,
+  upload media, fill title/caption/tags, check visibility and declarations,
+  then publish.
+- 知乎: open `https://www.zhihu.com/`, enter the creator/write article flow,
+  paste the long-form draft, add topic tags, preview, then publish.
+
 ## Project Layout
 
 - `works/`: work item definitions.
@@ -35,23 +103,6 @@ automation notes:
 - `drafts/`: generated platform drafts. Ignored by default.
 - `scripts/`: automation scripts.
 - `docs/`: usage, publishing, and compliance notes.
-
-## Quick Start
-
-Generate platform drafts:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\generate-drafts.ps1
-```
-
-Generate poster SVG files:
-
-```powershell
-node .\scripts\generate-tokenaizf-posters.js
-```
-
-The poster script writes SVG files to `assets/`. Convert SVG to PNG with a
-browser screenshot, ImageMagick, or your platform's preferred design tool.
 
 ## Work Item Format
 
