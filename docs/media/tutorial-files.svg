@@ -1,0 +1,28 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" fill="#FBFCFE"/>
+  <text x="80" y="92" fill="#162033" font-family="Arial, Microsoft YaHei, sans-serif" font-size="42" font-weight="700">仓库文件怎么用</text>
+  <text x="82" y="136" fill="#526071" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22">改 works，跑 scripts，看 drafts 和 assets，再去平台发布。</text>
+
+  <g font-family="Consolas, Microsoft YaHei, monospace" font-size="24">
+    <rect x="80" y="190" width="460" height="390" rx="20" fill="#172033"/>
+    <text x="118" y="242" fill="#9AE6B4">promo-relay-station/</text>
+    <text x="145" y="292" fill="#FFFFFF">works/</text>
+    <text x="180" y="328" fill="#A7C7FF">tokenaizf.work.json</text>
+    <text x="145" y="382" fill="#FFFFFF">configs/</text>
+    <text x="180" y="418" fill="#A7C7FF">platforms.json</text>
+    <text x="145" y="472" fill="#FFFFFF">scripts/</text>
+    <text x="180" y="508" fill="#A7C7FF">generate-drafts.ps1</text>
+    <text x="180" y="544" fill="#A7C7FF">generate-tokenaizf-posters.js</text>
+
+    <rect x="620" y="190" width="500" height="390" rx="20" fill="#FFFFFF" stroke="#D9E1EC"/>
+    <text x="660" y="248" fill="#162033" font-family="Arial, Microsoft YaHei, sans-serif" font-size="28" font-weight="700">输出结果</text>
+    <text x="660" y="305" fill="#244766">drafts/tokenaizf/xiaohongshu.md</text>
+    <text x="660" y="348" fill="#244766">drafts/tokenaizf/douyin.md</text>
+    <text x="660" y="391" fill="#244766">drafts/tokenaizf/bilibili.md</text>
+    <text x="660" y="458" fill="#2E6F42">assets/tokenaizf-*.svg</text>
+    <text x="660" y="522" fill="#7A4B00">docs/PUBLISHING.md</text>
+  </g>
+
+  <path d="M555 385H610" stroke="#7A8AA0" stroke-width="4" stroke-linecap="round"/>
+  <path d="M598 373L614 385L598 397" stroke="#7A8AA0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

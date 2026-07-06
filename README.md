@@ -16,6 +16,12 @@ This project does not bypass platform restrictions, login checks, CAPTCHA,
 rate limits, or content review. It is designed for legitimate, user-owned
 publishing workflows.
 
+## Tutorial
+
+Start here if you want a step-by-step Chinese guide with diagrams:
+
+- [宣传中转站图文教程](docs/TUTORIAL.zh-CN.md)
+
 ## How To Use
 
 This repository is a preparation workspace. It generates platform-ready drafts

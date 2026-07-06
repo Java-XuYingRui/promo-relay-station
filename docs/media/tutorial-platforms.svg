@@ -1,0 +1,37 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#F7F9FC"/>
+  <text x="80" y="90" fill="#162033" font-family="Arial, Microsoft YaHei, sans-serif" font-size="42" font-weight="700">各平台发布动作拆解</text>
+  <text x="82" y="134" fill="#526071" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22">所有平台都按同一个节奏：登录确认、上传素材、粘贴草稿、检查声明、预览发布。</text>
+
+  <g font-family="Arial, Microsoft YaHei, sans-serif">
+    <rect x="80" y="188" width="312" height="198" rx="18" fill="#FFFFFF" stroke="#D9E1EC"/>
+    <text x="112" y="238" fill="#B42318" font-size="28" font-weight="700">小红书</text>
+    <text x="112" y="282" fill="#344054" font-size="20">图文笔记 / 视频笔记</text>
+    <text x="112" y="322" fill="#667085" font-size="18">标题短、首句强、标签少而准</text>
+    <text x="112" y="354" fill="#667085" font-size="18">入口建议写主页/置顶入口</text>
+
+    <rect x="444" y="188" width="312" height="198" rx="18" fill="#FFFFFF" stroke="#D9E1EC"/>
+    <text x="476" y="238" fill="#101828" font-size="28" font-weight="700">抖音 / 快手</text>
+    <text x="476" y="282" fill="#344054" font-size="20">短视频 / 图文</text>
+    <text x="476" y="322" fill="#667085" font-size="18">封面大字清晰，前 3 秒抓人</text>
+    <text x="476" y="354" fill="#667085" font-size="18">简介用主页入口承接流量</text>
+
+    <rect x="808" y="188" width="312" height="198" rx="18" fill="#FFFFFF" stroke="#D9E1EC"/>
+    <text x="840" y="238" fill="#026AA2" font-size="28" font-weight="700">B站</text>
+    <text x="840" y="282" fill="#344054" font-size="20">专栏 / 视频</text>
+    <text x="840" y="322" fill="#667085" font-size="18">适合教程、说明、更新日志</text>
+    <text x="840" y="354" fill="#667085" font-size="18">注意分区、封面、原创声明</text>
+
+    <rect x="262" y="446" width="312" height="198" rx="18" fill="#FFFFFF" stroke="#D9E1EC"/>
+    <text x="294" y="496" fill="#175CD3" font-size="28" font-weight="700">知乎</text>
+    <text x="294" y="540" fill="#344054" font-size="20">文章 / 回答</text>
+    <text x="294" y="580" fill="#667085" font-size="18">多写真实场景和操作细节</text>
+    <text x="294" y="612" fill="#667085" font-size="18">减少口号，增强可信度</text>
+
+    <rect x="626" y="446" width="312" height="198" rx="18" fill="#172033"/>
+    <text x="782" y="505" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="700">统一检查</text>
+    <text x="782" y="552" text-anchor="middle" fill="#D7E0EA" font-size="20">标题、正文、标签、封面</text>
+    <text x="782" y="589" text-anchor="middle" fill="#D7E0EA" font-size="20">链接、声明、可见范围</text>
+    <text x="782" y="626" text-anchor="middle" fill="#D7E0EA" font-size="20">预览没问题再发布</text>
+  </g>
+</svg>
